@@ -1,0 +1,27 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333; /* Add a background color to the navigation bar */
+    padding: 10px; /* Add some padding to the navigation bar */
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff; /* Change the text color to white */
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ffd700; /* Change the text color to yellow on hover */
+  }
+  
+  nav a.active {
+    background-color: #444; /* Add a background color to the active link */
+    color: #fff; /* Change the text color to white for the active link */
+  }
